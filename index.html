@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser extension manager UI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="logobox">
+            <div class="logotxt"> <img src="logo.png" ><p id="logop">Extensions</p></div>
+            <button id="change" type="button"><img src="icon-sun.svg" class="change-img" id="logoimg"></button>
+        </div>
+        <div class="main">
+            <p class="title">Extensions List</p>
+            <div class="mainbox">
+                <button type="button" id="all" class="mainbtn">All</button>
+                <button type="button" id="active" class="mainbtn">Active</button>
+                <button type="button" id="inactive" class="mainbtn">inactive</button>
+            </div>
+        </div>
+        <div class="statements">
+            <div class="statbox" id="it1">
+                <div class="statment-intr">
+                    <img class="stat-img" src="logo-devlens.svg">
+                    <div class="stat-txt">
+                        <p class="stat-title">DevLens</p>
+                        <p class="stat-tx">Quickly inspect page layouts and visualize element boundaries.</p>
+                    </div>
+                </div>
+                <div class="stat-btn">
+                    <button type="button" class="rem">Remove</button>
+                    <button type="button" class="on"><div class="circle"></div></button>
+                </div>
+            </div>
+             <div class="statbox" id="it2">
+                <div class="statment-intr">
+                    <img class="stat-img" src="logo-style-spy.svg">
+                    <div class="stat-txt">
+                        <p class="stat-title">StyleSpy</p>
+                        <p class="stat-tx">Instantly analyze and copy CSS from any webpage element</p>
+                    </div>
+                </div>
+                <div class="stat-btn">
+                    <button type="button" class="rem">Remove</button>
+                    <button type="button" class="on"><div class="circle"></div></button>
+                </div>
+            </div>
+             <div class="statbox" id="it3">
+                <div class="statment-intr">
+                    <img class="stat-img" src="logo-speed-boost.svg">
+                    <div class="stat-txt">
+                        <p class="stat-title">SpeedBoost</p>
+                        <p class="stat-tx">Optimizes browser resource usage to accelerate page loading.</p>
+                    </div>
+                </div>
+                <div class="stat-btn" >
+                    <button type="button" class="rem">Remove</button>
+                    <button type="button" class="on"><div class="circle"></div></button>
+                </div>
+            </div>
+             <div class="statbox" id="it4">
+                <div class="statment-intr">
+                    <img class="stat-img" src="logo-json-wizard.svg">
+                    <div class="stat-txt">
+                        <p class="stat-title">JSONWizard</p>
+                        <p class="stat-tx">Formats, validates, and prettifies JSON responses in-browser.</p>
+                    </div>
+                </div>
+                <div class="stat-btn">
+                    <button type="button" class="rem">Remove</button>
+                    <button type="button" class="on"><div class="circle"></div></button>
+                </div>
+            </div>
+             <div class="statbox" id="it5">
+                <div class="statment-intr">
+                    <img class="stat-img" src="logo-tab-master-pro.svg">
+                    <div class="stat-txt">
+                        <p class="stat-title">TabMaster</p>
+                        <p class="stat-tx">Pro Organizes browser tabs into groups and sessions.</p>
+                    </div>
+                </div>
+                <div class="stat-btn">
+                    <button type="button" class="rem">Remove</button>
+                    <button type="button" class="on"><div class="circle"></div></button>
+                </div>
+            </div>
+             <div class="statbox" id="it6">
+                <div class="statment-intr">
+                    <img class="stat-img" src="logo-viewport-buddy.svg">
+                    <div class="stat-txt">
+                        <p class="stat-title">ViewportBuddy</p>
+                        <p class="stat-tx">Simulates various screen resolutions directly within the browser.</p>
+                    </div>
+                </div>
+                <div class="stat-btn">
+                    <button type="button" class="rem">Remove</button>
+                    <button type="button" class="on"><div class="circle"></div></button>
+                </div>
+            </div>
+             <div class="statbox" id="it7">
+                <div class="statment-intr">
+                    <img class="stat-img" src="logo-markup-notes.svg">
+                    <div class="stat-txt">
+                        <p class="stat-title">Markup Notes</p>
+                        <p class="stat-tx">Notes Enables annotation and notes directly onto webpages for collaborative debugging.</p>
+                    </div>
+                </div>
+                <div class="stat-btn">
+                    <button type="button" class="rem">Remove</button>
+                    <button type="button" class="on"><div class="circle"></div></button>
+                </div>
+            </div>
+             <div class="statbox" id="it8">
+                <div class="statment-intr">
+                    <img class="stat-img" src="logo-grid-guides.svg">
+                    <div class="stat-txt">
+                        <p class="stat-title">GridGuides</p>
+                        <p class="stat-tx">Overlay customizable grids and alignment guides on any webpage.</p>
+                    </div>
+                </div>
+                <div class="stat-btn">
+                    <button type="button" class="rem">Remove</button>
+                    <button type="button" class="on"><div class="circle"></div></button>
+                </div>
+            </div>
+             <div class="statbox" id="it9">
+                <div class="statment-intr">
+                    <img class="stat-img" src="logo-palette-picker.svg">
+                    <div class="stat-txt">
+                        <p class="stat-title">Palette Picker</p>
+                        <p class="stat-tx">Instantly extracts color palettes from any webpage.</p>
+                    </div>
+                </div>
+                <div class="stat-btn">
+                    <button type="button" class="rem">Remove</button>
+                    <button type="button" class="on"><div class="circle"></div></button>
+                </div>
+            </div>
+             <div class="statbox" id="it10">
+                <div class="statment-intr">
+                    <img class="stat-img" src="logo-link-checker.svg">
+                    <div class="stat-txt">
+                        <p class="stat-title">LinkChecker</p>
+                        <p class="stat-tx">Scans and highlights broken links on any page.</p>
+                    </div>
+                </div>
+                <div class="stat-btn">
+                    <button type="button" class="rem">Remove</button>
+                    <button type="button" class="on"><div class="circle"></div></button>
+                </div>
+            </div>
+             <div class="statbox" id="it11">
+                <div class="statment-intr">
+                    <img class="stat-img" src="logo-dom-snapshot.svg">
+                    <div class="stat-txt">
+                        <p class="stat-title">DOM Snapshot </p>
+                        <p class="stat-tx">Capture and export DOM structures quickly.</p>
+                    </div>
+                </div>
+                <div class="stat-btn">
+                    <button type="button" class="rem">Remove</button>
+                    <button type="button" class="on"><div class="circle"></div></button>
+                </div>
+            </div>
+             <div class="statbox" id="it12">
+                <div class="statment-intr">
+                    <img class="stat-img" src="logo-console-plus.svg">
+                    <div class="stat-txt">
+                        <p class="stat-title">ConsolePlus</p>
+                        <p class="stat-tx">Enhanced developer console with advanced filtering and logging.</p>
+                    </div>
+                </div>
+                <div class="stat-btn">
+                    <button type="button" class="rem">Remove</button>
+                    <button type="button" class="on"><div class="circle"></div></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
